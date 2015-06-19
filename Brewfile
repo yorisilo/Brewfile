@@ -19,6 +19,7 @@ cask install xquartz
 
 
 # Install formulae
+install weechat --with-ruby --with-python --with-perl
 install zsh
 install wget
 install ant
