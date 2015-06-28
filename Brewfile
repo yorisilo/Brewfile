@@ -22,7 +22,6 @@ install weechat --with-ruby --with-python --with-perl
 install ant
 install homebrew/dupes/apple-gcc42
 install aspell
-install caskroom/cask/brew-cask
 install bsdmake
 install clisp
 install cloog
