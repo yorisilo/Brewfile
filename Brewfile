@@ -89,6 +89,7 @@ install wget
 install youtube-dl
 install z
 install zsh
+install xpdf
 
 # Install Cask formulae
 # cask install dropbox 手動で入れる
