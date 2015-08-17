@@ -126,6 +126,7 @@ cask install processing
 # cask install skim
 cask install skitch
 cask install skype
+cask install slack
 cask install sublime-text
 cask install the-unarchiver
 cask install virtualbox
@@ -133,6 +134,8 @@ cask install vlc
 cask install xquartz
 cask install xtrafinder
 
+# brew cask について
+# http://qiita.com/tienlen/items/1a50c7507c8f6454f6c6
 
 # app storeのアプリは手動で入れる PDFNutとか
 
