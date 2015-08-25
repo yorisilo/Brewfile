@@ -13,7 +13,7 @@ tap caskroom/versions
 
 # Update Homebrew
 update
-upgrade
+# upgrade
 
 cask install xquartz
 
@@ -33,7 +33,8 @@ install ctags
 install curl
 install homebrew/science/datamash
 install docbook
-install https://gist.githubusercontent.com/ksato9700/0b3c71adafc256ddf280/raw/f48ac50bf8d1a16aa63606b137cd29b8fb1d7414/emacs.rb --japanese --cocoa --gnutils --imagemagick --with-xml2 --verbose
+# install https://gist.githubusercontent.com/ksato9700/0b3c71adafc256ddf280/raw/f48ac50bf8d1a16aa63606b137cd29b8fb1d7414/emacs.rb --japanese --cocoa --gnutils --imagemagick --with-xml2 --verbose
+install https://gist.githubusercontent.com/ssugiyama/5ff88299efadd61415c5/raw/588c209dd8f3e5b99c7f39e149d9c70d0ab3be02/emacs-jp.rb --japanese --with-cocoa --srgb --with-gnutls
 # install emacs --HEAD --use-git-head --japanese --srgb --cocoa --with-gnutls
 install ffmpeg
 install fontforge
@@ -110,7 +111,7 @@ cask install flip4mac
 cask install flux
 cask install giffun
 cask install gimp
-cask install github
+cask install github-desktop
 cask install google-chrome
 cask install google-drive
 cask install google-japanese-ime
@@ -131,7 +132,6 @@ cask install sublime-text
 cask install the-unarchiver
 cask install virtualbox
 cask install vlc
-cask install xquartz
 cask install xtrafinder
 
 # brew cask について
