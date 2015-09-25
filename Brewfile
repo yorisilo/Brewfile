@@ -18,6 +18,8 @@ update
 cask install xquartz
 
 # Install formulae
+install ag
+install zsh-compinit
 install weechat --with-ruby --with-python --with-perl
 install ant
 install homebrew/dupes/apple-gcc42
