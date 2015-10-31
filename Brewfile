@@ -93,6 +93,7 @@ install youtube-dl
 install z
 install zsh
 install xpdf
+install lame
 
 # Install Cask formulae
 # cask install dropbox 手動で入れる
