@@ -1,147 +1,264 @@
-# for brew file command
 
-# Add repositories
-tap homebrew/versions
-tap homebrew/science
+# tap repositories and their packages
+
+tap caskroom/cask
+cask adobe-reader
+cask alfred
+cask amethyst
+cask android-studio
+cask appcleaner
+cask arduino
+cask atom
+cask coqide
+cask cyberduck
+cask dash
+cask eclipse-ide
+cask firefox
+cask flash
+cask flip4mac
+cask flux
+cask giffun
+cask gimp
+cask google-chrome
+cask google-drive
+cask google-japanese-ime
+cask gyazo
+cask iterm2
+cask karabiner
+cask kindle
+cask mactex
+cask osxfuse
+cask picasa
+cask processing
+cask skim
+cask skitch
+cask skype
+cask slack
+cask the-unarchiver
+cask virtualbox
+cask vlc
+cask xquartz
+cask xtrafinder
+
+tap caskroom/versions
+cask java7
+
+tap homebrew/completions
+brew brew-cask-completion
+
+tap homebrew/core
+brew ant
+brew ape
+brew aspcud
+brew aspell
+brew autoconf
+brew automake
+brew bdw-gc
+brew boost
+brew bsdmake
+brew cairo
+brew camlp4
+brew camlp5
+brew clasp
+brew clisp
+brew cloog
+brew cmake
+brew cmigemo
+brew coq
+brew coreutils
+brew corkscrew
+brew cscope
+brew ctags
+brew curl
+brew czmq
+brew direnv
+brew dirmngr
+brew docbook
+brew eigen
+brew elasticsearch
+brew emacs --with-cocoa --with-gnutls
+brew faac
+brew ffmpeg
+brew figlet
+brew fontconfig
+brew fontforge
+brew freetype
+brew gcc
+brew gd
+brew gdb
+brew gdbm
+brew gettext
+brew gh
+brew ghostscript
+brew ghq
+brew git
+brew glib
+brew global
+brew gmp
+brew gnu-sed
+brew gnupg
+brew gnupg2
+brew gnuplot --with-cairo --with-x11 --with-qt --with-tex
+brew gnutls
+brew go
+brew gobject-introspection
+brew gpg-agent
+brew graphviz
+brew gringo
+brew gsl
+brew harfbuzz
+brew haskell-stack
+brew heroku
+brew htop-osx
+brew icu4c
+brew ilmbase
+brew imagemagick
+brew isl
+brew ivy
+brew jbig2dec
+brew jpeg
+brew lame
+brew libassuan
+brew libav
+brew libevent
+brew libffi
+brew libgcrypt
+brew libgpg-error
+brew libksba
+brew libmpc
+brew libpng
+brew libsigsegv
+brew libsodium
+brew libtasn1
+brew libtiff
+brew libtool
+brew libusb
+brew libusb-compat
+brew libvo-aacenc
+brew libxc
+brew libxmlsec1
+brew libyaml
+brew little-cms2
+brew llvm
+brew lua
+brew macvim --with-override-system-vim
+brew markdown
+brew mobile-shell
+brew mongodb
+brew mpfr
+brew mplayer
+brew mycli
+brew mysql
+brew ncftp
+brew nettle
+brew nkf
+brew nodebrew
+brew oath-toolkit
+brew ocaml
+brew ocamlbuild
+brew opam
+brew openexr
+brew openssl
+brew pandoc
+brew pango
+brew pcre
+brew peco
+brew perl-build
+brew pgcli
+brew phantomjs
+brew pinentry
+brew pixman
+brew pkg-config
+brew plenv
+brew postgresql
+brew protobuf
+brew pth
+brew pyenv
+brew qt
+brew qt5
+brew rbenv
+brew re2c
+brew readline
+brew reattach-to-user-namespace
+brew redis
+brew repl
+brew rlwrap
+brew ruby-build
+brew sl
+brew sqlite
+brew terminal-notifier
+brew texinfo
+brew the_silver_searcher
+brew tig
+brew tmux
+brew tree
+brew unixodbc
+brew valgrind
+brew w3m
+brew webp
+brew wget
+brew x264
+brew xvid
+brew xz
+brew yasm
+brew youtube-dl
+brew z
+brew zeromq
+brew zsh
+brew zsh-completions
+
 tap homebrew/dupes
+brew apple-gcc42
+brew grep
+brew groff
+brew make
+
+tap homebrew/php
+brew composer
+brew php70
+
+tap homebrew/python
+brew numpy
+
+tap homebrew/science
+brew datamash
+brew glpk
+brew opencv
+brew r
+
+tap homebrew/services
+
+tap homebrew/versions
+brew cloog-ppl015
+brew gcc47
+brew gmp4
+brew libmpc08
+brew mpfr2
+brew ppl011
+
 tap homebrew/x11
 
-## caskroom/cask
-tap caskroom/cask
-install brew-cask
-tap caskroom/versions
+tap rcmdnk/file
+brew brew-file
 
-# Update Homebrew
+# App Store applications
+appstore 425264550 Blackmagic Disk Speed Test
+appstore 847496013 Deckset
+appstore 510934532 FreeMan
+appstore 682658836 GarageBand
+appstore 668208984 GIPHY CAPTURE
+appstore 408981434 iMovie
+appstore 408981381 iPhoto
+appstore 409183694 Keynote
+appstore 539883307 LINE
+appstore 409203825 Numbers
+appstore 409201541 Pages
+appstore 558507529 PDF Master
+appstore 588109295 PDFNut
+appstore 530661872 SwordAndSworcery
+appstore 461369673 VOX
+appstore 497799835 Xcode
+
+# Other commands
 update
-# upgrade
-
-cask install xquartz
-
-# Install formulae
-install ag
-install zsh-compinit
-install weechat --with-ruby --with-python --with-perl
-install ant
-install homebrew/dupes/apple-gcc42
-install aspell
-install bsdmake
-install clisp
-install cloog
-install cmigemo
-install coq
-install coreutils
-install corkscrew
-install ctags
-install curl
-install homebrew/science/datamash
-install docbook
-# install https://gist.githubusercontent.com/ksato9700/0b3c71adafc256ddf280/raw/f48ac50bf8d1a16aa63606b137cd29b8fb1d7414/emacs.rb --japanese --cocoa --gnutils --imagemagick --with-xml2 --verbose
-install https://gist.githubusercontent.com/ssugiyama/5ff88299efadd61415c5/raw/588c209dd8f3e5b99c7f39e149d9c70d0ab3be02/emacs-jp.rb --japanese --with-cocoa --srgb --with-gnutls
-# install emacs --HEAD --use-git-head --japanese --srgb --cocoa --with-gnutls
-install ffmpeg
-install fontforge
-install gcc
-install homebrew/versions/gcc47
-install homebrew/dupes/gdb
-install gh
-install ghostscript
-install git
-install global
-install homebrew/science/glpk
-install gnupg
-install gnuplot
-install graphviz
-install homebrew/dupes/grep
-install homebrew/dupes/groff
-install gsl
-install imagemagick
-install ivy
-install libav
-install libgcrypt
-install libxc
-install libyaml
-install llvm
-install lua
-install macvim
-install homebrew/dupes/make
-install markdown
-install mongodb
-install mplayer
-install mysql
-install ncftp
-install nvm
-install opam
-install homebrew/science/opencv
-install pandoc
-install peco
-install perl-build
-install plenv
-install pow
-install pyenv
-install python
-install homebrew/science/r
-install rbenv
-install repl
-install ruby-build
-install sl
-install tig
-install tmux
-install tree
-install w3m
-install wget
-install youtube-dl
-install z
-install zsh
-install xpdf
-install lame
-
-# Install Cask formulae
-# cask install dropbox 手動で入れる
-cask install adobe-reader
-cask install alfred
-cask install amethyst
-cask install android-studio
-cask install appcleaner
-cask install arduino
-cask install atom
-cask install coqide
-cask install cyberduck
-cask install dash
-# cask install eclipse-ide
-cask install firefox
-cask install flash
-cask install flip4mac
-cask install flux
-cask install giffun
-cask install gimp
-cask install github-desktop
-cask install google-chrome
-cask install google-drive
-cask install google-japanese-ime
-cask install gyazo
-cask install haskell-platform # best practiceを考える
-cask install iterm2
-cask install java7
-cask install karabiner
-cask install kindle
-cask install mactex
-cask install picasa
-cask install processing
-# cask install skim
-cask install skitch
-cask install skype
-cask install slack
-cask install sublime-text
-cask install the-unarchiver
-cask install virtualbox
-cask install vlc
-cask install xtrafinder
-
-# brew cask について
-# http://qiita.com/tienlen/items/1a50c7507c8f6454f6c6
-
-# app storeのアプリは手動で入れる PDFNutとか
-
-# Remove outdated versions
 cleanup
-cask cleanup
