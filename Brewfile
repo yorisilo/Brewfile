@@ -45,6 +45,7 @@ cask java7
 
 tap homebrew/completions
 brew brew-cask-completion
+brew ruby-completion
 
 tap homebrew/core
 brew ant
