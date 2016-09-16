@@ -137,6 +137,7 @@ brew libusb
 brew libusb-compat
 brew libvo-aacenc
 brew libxc
+brew libxml2
 brew libxmlsec1
 brew libyaml
 brew little-cms2
@@ -207,6 +208,7 @@ brew z
 brew zeromq
 brew zsh
 brew zsh-completions
+brew mas
 
 tap homebrew/dupes
 brew apple-gcc42
@@ -246,19 +248,19 @@ brew brew-file
 appstore 425264550 Blackmagic Disk Speed Test
 appstore 847496013 Deckset
 appstore 510934532 FreeMan
-appstore 682658836 GarageBand
 appstore 668208984 GIPHY CAPTURE
-appstore 408981434 iMovie
-appstore 408981381 iPhoto
+appstore 682658836 GarageBand
 appstore 409183694 Keynote
 appstore 539883307 LINE
 appstore 409203825 Numbers
-appstore 409201541 Pages
 appstore 558507529 PDF Master
 appstore 588109295 PDFNut
+appstore 409201541 Pages
 appstore 530661872 SwordAndSworcery
 appstore 461369673 VOX
 appstore 497799835 Xcode
+appstore 408981434 iMovie
+appstore 408981381 iPhoto
 
 # Other commands
 update
