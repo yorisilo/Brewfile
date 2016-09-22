@@ -2,7 +2,6 @@
 # tap repositories and their packages
 
 tap caskroom/cask
-cask adobe-reader
 cask alfred
 cask amethyst
 cask android-studio
@@ -24,6 +23,7 @@ cask google-drive
 cask google-japanese-ime
 cask gyazo
 cask iterm2
+cask java
 cask karabiner
 cask kindle
 cask mactex
@@ -41,7 +41,9 @@ cask xquartz
 cask xtrafinder
 
 tap caskroom/versions
-cask java7
+
+tap hakamadare/goenv
+brew goenv
 
 tap homebrew/completions
 brew brew-cask-completion
@@ -72,22 +74,27 @@ brew cscope
 brew ctags
 brew curl
 brew czmq
+brew dbus
 brew direnv
 brew dirmngr
 brew docbook
+brew docutils
 brew eigen
 brew elasticsearch
-brew emacs --with-cocoa --with-gnutls
+brew emacs --with-cocoa --with-gnutls --with-imagemagick --HEAD
 brew faac
 brew ffmpeg
 brew figlet
+brew fish
 brew fontconfig
 brew fontforge
 brew freetype
+brew fribidi
 brew gcc
 brew gd
 brew gdb
 brew gdbm
+brew gdk-pixbuf
 brew gettext
 brew gh
 brew ghostscript
@@ -101,7 +108,6 @@ brew gnupg
 brew gnupg2
 brew gnuplot --with-cairo --with-x11 --with-qt --with-tex
 brew gnutls
-brew go
 brew gobject-introspection
 brew gpg-agent
 brew graphviz
@@ -119,8 +125,10 @@ brew ivy
 brew jbig2dec
 brew jpeg
 brew lame
+brew libass
 brew libassuan
 brew libav
+brew libcroco
 brew libevent
 brew libffi
 brew libgcrypt
@@ -128,6 +136,7 @@ brew libgpg-error
 brew libksba
 brew libmpc
 brew libpng
+brew librsvg
 brew libsigsegv
 brew libsodium
 brew libtasn1
@@ -145,10 +154,12 @@ brew llvm
 brew lua
 brew macvim --with-override-system-vim
 brew markdown
+brew mas
 brew mobile-shell
 brew mongodb
 brew mpfr
 brew mplayer
+brew mpv --with-bundle --HEAD
 brew mycli
 brew mysql
 brew ncftp
@@ -164,6 +175,7 @@ brew openssl
 brew pandoc
 brew pango
 brew pcre
+brew pcre2
 brew peco
 brew perl-build
 brew pgcli
@@ -176,6 +188,7 @@ brew postgresql
 brew protobuf
 brew pth
 brew pyenv
+brew python3
 brew qt
 brew qt5
 brew rbenv
@@ -208,7 +221,6 @@ brew z
 brew zeromq
 brew zsh
 brew zsh-completions
-brew mas
 
 tap homebrew/dupes
 brew apple-gcc42
@@ -261,7 +273,3 @@ appstore 461369673 VOX
 appstore 497799835 Xcode
 appstore 408981434 iMovie
 appstore 408981381 iPhoto
-
-# Other commands
-update
-cleanup

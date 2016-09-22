@@ -1,0 +1,209 @@
+# Cask applications
+# Please copy these lines to your Brewfile and use with `brew-file install`.
+
+# Main tap repository for caskroom/cask
+tap caskroom/cask
+
+# Apps installed directly instead of by Cask in caskroom/cask
+#cask install 0xed #/Applications/0xED.app
+#cask install adafruit-arduino #/Applications/Arduino.app
+#cask install adobe-reader #/Applications/Adobe Acrobat Reader DC.app
+#cask install alfred #/Applications/Alfred 3.app
+#cask install amethyst #/Applications/Amethyst.app
+#cask install android-studio #/Applications/Android Studio.app
+#cask install appcleaner #/Applications/AppCleaner.app
+#cask install aquamacs #/Applications/Aquamacs.app
+#cask install arduino #/Applications/Arduino.app
+#cask install atom #/Applications/Atom.app
+#cask install bettertouchtool #/Applications/BetterTouchTool.app
+#cask install bitbar #/Applications/BitBar.app
+#cask install breeze #/Applications/Breeze.app
+#cask install calibre #/Applications/calibre.app
+#cask install cyberduck #/Applications/Cyberduck.app
+#cask install dash #/Applications/Dash.app
+#cask install dash-dash #/Applications/Dash.app
+#cask install dropbox #/Applications/Dropbox.app
+#cask install eclipse-cpp #/Applications/Eclipse.app
+#cask install eclipse-ide #/Applications/Eclipse.app
+#cask install eclipse-java #/Applications/Eclipse.app
+#cask install eclipse-jee #/Applications/Eclipse.app
+#cask install eclipse-modeling #/Applications/Eclipse.app
+#cask install eclipse-php #/Applications/Eclipse.app
+#cask install eclipse-platform #/Applications/Eclipse.app
+#cask install eclipse-ptp #/Applications/Eclipse.app
+#cask install eclipse-rcp #/Applications/Eclipse.app
+#cask install emacs #/Applications/Emacs.app
+#cask install firefox #/Applications/Firefox.app
+#cask install flip4mac #/Applications/Flip4Mac
+#cask install fluid #/Applications/Fluid.app
+#cask install flux #/Applications/Flux.app
+#cask install galileo-arduino #/Applications/Arduino.app
+#cask install giffun #/Applications/GIFfun.app
+#cask install gimp #/Applications/GIMP.app
+#cask install google-chrome #/Applications/Google Chrome.app
+#cask install google-drive #/Applications/Google Drive.app
+#cask install graphsketcher #/Applications/GraphSketcher.app
+#cask install gyazo #/Applications/Gyazo GIF.app
+#cask install gyazo #/Applications/Gyazo.app
+#cask install iterm2 #/Applications/iTerm.app
+#cask install karabiner #/Applications/Karabiner.app
+#cask install kindle #/Applications/Kindle.app
+#cask install leap-motion #/Applications/Leap Motion.app
+#cask install licecap #/Applications/LICEcap.app
+#cask install lisanet-gimp #/Applications/GIMP.app
+#cask install macvim #/Applications/MacVim.app
+#cask install mendeley-desktop #/Applications/Mendeley Desktop.app
+#cask install microsoft-lync #/Applications/Microsoft Lync.app
+#cask install microsoft-office #/Applications/Microsoft Office 2011
+#cask install omnigraffle #/Applications/OmniGraffle.app
+#cask install picasa #/Applications/Picasa.app
+#cask install processing #/Applications/Processing.app
+#cask install readcube #/Applications/ReadCube.app
+#cask install recordit #/Applications/RecordIt.app
+#cask install scilab #/Applications/scilab-5.5.2.app
+#cask install skim #/Applications/Skim.app
+#cask install skitch #/Applications/Skitch.app
+#cask install skype #/Applications/Skype.app
+#cask install slack #/Applications/Slack.app
+#cask install stay #/Applications/Stay.app
+#cask install the-escapers-flux #/Applications/Flux.app
+#cask install the-unarchiver #/Applications/The Unarchiver.app
+#cask install toggldesktop #/Applications/TogglDesktop.app
+#cask install virtualbox #/Applications/VirtualBox.app
+#cask install vlc #/Applications/VLC.app
+#cask install xquartz #/Applications/Utilities/XQuartz.app
+#cask install xtrafinder #/Applications/XtraFinder.app
+
+# Casks in caskroom/versions
+tap caskroom/versions
+
+# Apps installed directly instead of by Cask in caskroom/versions
+#cask install android-studio-canary #/Applications/Android Studio.app
+#cask install arduino-nightly #/Applications/Arduino.app
+#cask install dropbox-beta #/Applications/Dropbox.app
+#cask install emacs-nightly #/Applications/Emacs.app
+#cask install emacs-pretest #/Applications/Emacs.app
+#cask install firefox-beta-de #/Applications/Firefox.app
+#cask install firefox-beta-en-gb #/Applications/Firefox.app
+#cask install firefox-beta-ja #/Applications/Firefox.app
+#cask install firefox-beta-ru #/Applications/Firefox.app
+#cask install firefox-beta-uk #/Applications/Firefox.app
+#cask install firefox-beta-zh-cn #/Applications/Firefox.app
+#cask install firefox-beta #/Applications/Firefox.app
+#cask install firefox-de #/Applications/Firefox.app
+#cask install firefox-esr-ru #/Applications/Firefox.app
+#cask install firefox-esr-uk #/Applications/Firefox.app
+#cask install firefox-esr-zh-cn #/Applications/Firefox.app
+#cask install firefox-esr #/Applications/Firefox.app
+#cask install firefox-fr #/Applications/Firefox.app
+#cask install firefox-gl #/Applications/Firefox.app
+#cask install firefox-it #/Applications/Firefox.app
+#cask install firefox-ja #/Applications/Firefox.app
+#cask install firefox-nl #/Applications/Firefox.app
+#cask install firefox-pl #/Applications/Firefox.app
+#cask install firefox-pt-br #/Applications/Firefox.app
+#cask install firefox-ru #/Applications/Firefox.app
+#cask install firefox-uk #/Applications/Firefox.app
+#cask install firefox-zh-cn #/Applications/Firefox.app
+#cask install firefox-zh-tw #/Applications/Firefox.app
+#cask install google-chrome-beta #/Applications/Google Chrome.app
+#cask install google-chrome-dev #/Applications/Google Chrome.app
+#cask install iterm2-beta #/Applications/iTerm.app
+#cask install iterm2-legacy #/Applications/iTerm.app
+#cask install iterm2-nightly #/Applications/iTerm.app
+#cask install macvim-kaoriya #/Applications/MacVim.app
+#cask install processing2 #/Applications/Processing.app
+#cask install slack-beta #/Applications/Slack.app
+#cask install vlc-nightly #/Applications/VLC.app
+#cask install xquartz-beta #/Applications/Utilities/XQuartz.app
+
+# Apps installed from AppStore
+425264550 Blackmagic Disk Speed Test #/Applications/Blackmagic Disk Speed Test.app
+847496013 Deckset #/Applications/Deckset.app
+510934532 FreeMan #/Applications/FreeMan.app
+682658836 GarageBand #/Applications/GarageBand.app
+668208984 GIPHY CAPTURE #/Applications/GIPHY CAPTURE.app
+408981434 iMovie #/Applications/iMovie.app
+408981381 iPhoto #/Applications/iPhoto.app
+409183694 Keynote #/Applications/Keynote.app
+539883307 LINE #/Applications/LINE.app
+409203825 Numbers #/Applications/Numbers.app
+409201541 Pages #/Applications/Pages.app
+558507529 PDF Master #/Applications/PDF Master.app
+588109295 PDFNut #/Applications/PDFNut.app
+530661872 SwordAndSworcery #/Applications/SwordAndSworcery.app
+461369673 VOX #/Applications/VOX.app
+497799835 Xcode #/Applications/Xcode.app
+
+# Apps installed but no casks are available
+# (System applications or directory installed.)
+#/Applications/App Store.app
+#/Applications/Assistant-qt5.app
+#/Applications/Assistant.app
+#/Applications/Automator.app
+#/Applications/Calculator.app
+#/Applications/Calendar.app
+#/Applications/Callnote.app
+#/Applications/Chess.app
+#/Applications/Contacts.app
+#/Applications/CoqIDE_8.5pl2.app
+#/Applications/Dashboard.app
+#/Applications/Designer-qt5.app
+#/Applications/Designer.app
+#/Applications/Dictionary.app
+#/Applications/DVD Player.app
+#/Applications/FaceTime.app
+#/Applications/Font Book.app
+#/Applications/Game Center.app
+#/Applications/GoogleJapaneseInput.localized
+#/Applications/iBooks.app
+#/Applications/Image Capture.app
+#/Applications/IntelliJ IDEA 14 CE.app
+#/Applications/iTunes.app
+#/Applications/Launchpad.app
+#/Applications/Leap Motion App Home.app
+#/Applications/Leap Motion Orientation.app
+#/Applications/Linguist-qt5.app
+#/Applications/Linguist.app
+#/Applications/Mail.app
+#/Applications/Maps.app
+#/Applications/Messages.app
+#/Applications/MindNode (Demo).app
+#/Applications/Mission Control.app
+#/Applications/mpv.app
+#/Applications/Notes.app
+#/Applications/Photo Booth.app
+#/Applications/Photos.app
+#/Applications/pixeltool-qt5.app
+#/Applications/Preview.app
+#/Applications/qml-qt5.app
+#/Applications/QMLViewer.app
+#/Applications/qttracereplay.app
+#/Applications/QuickTime Player.app
+#/Applications/Reminders.app
+#/Applications/Safari.app
+#/Applications/Stickies.app
+#/Applications/System Preferences.app
+#/Applications/terminal-notifier.app
+#/Applications/TeX
+#/Applications/TextEdit.app
+#/Applications/Time Machine.app
+#/Applications/trello.app
+#/Applications/Utilities/Activity Monitor.app
+#/Applications/Utilities/Adobe Flash Player Install Manager.app
+#/Applications/Utilities/AirPort Utility.app
+#/Applications/Utilities/Audio MIDI Setup.app
+#/Applications/Utilities/Bluetooth File Exchange.app
+#/Applications/Utilities/Boot Camp Assistant.app
+#/Applications/Utilities/ColorSync Utility.app
+#/Applications/Utilities/Console.app
+#/Applications/Utilities/Digital Color Meter.app
+#/Applications/Utilities/Disk Utility.app
+#/Applications/Utilities/Grab.app
+#/Applications/Utilities/Grapher.app
+#/Applications/Utilities/Keychain Access.app
+#/Applications/Utilities/Migration Assistant.app
+#/Applications/Utilities/Script Editor.app
+#/Applications/Utilities/System Information.app
+#/Applications/Utilities/Terminal.app
+#/Applications/Utilities/VoiceOver Utility.app
