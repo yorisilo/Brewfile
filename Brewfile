@@ -81,7 +81,7 @@ brew docbook
 brew docutils
 brew eigen
 brew elasticsearch
-brew emacs --with-cocoa --with-gnutls --with-imagemagick --HEAD
+brew emacs --with-cocoa --with-gnutls
 brew faac
 brew ffmpeg
 brew figlet
@@ -106,7 +106,7 @@ brew gmp
 brew gnu-sed
 brew gnupg
 brew gnupg2
-brew gnuplot --with-cairo --with-x11 --with-qt --with-tex
+brew gnuplot --with-cairo --with-x11 --with-tex
 brew gnutls
 brew gobject-introspection
 brew gpg-agent
@@ -197,8 +197,10 @@ brew readline
 brew reattach-to-user-namespace
 brew redis
 brew repl
+brew ripgrep
 brew rlwrap
 brew ruby-build
+brew shared-mime-info
 brew sl
 brew sqlite
 brew terminal-notifier
@@ -253,23 +255,26 @@ brew ppl011
 
 tap homebrew/x11
 
+tap railwaycat/emacsmacport
+cask emacs-mac
+
 tap rcmdnk/file
 brew brew-file
 
 # App Store applications
-appstore 425264550 Blackmagic Disk Speed Test
-appstore 847496013 Deckset
-appstore 510934532 FreeMan
-appstore 668208984 GIPHY CAPTURE
-appstore 682658836 GarageBand
-appstore 409183694 Keynote
-appstore 539883307 LINE
-appstore 409203825 Numbers
-appstore 558507529 PDF Master
-appstore 588109295 PDFNut
-appstore 409201541 Pages
-appstore 530661872 SwordAndSworcery
-appstore 461369673 VOX
-appstore 497799835 Xcode
-appstore 408981434 iMovie
-appstore 408981381 iPhoto
+appstore 425264550 Blackmagic Disk Speed Test (3.0)
+appstore 847496013 Deckset (1.6.3)
+appstore 510934532 FreeMan (1.4.1)
+appstore 668208984 GIPHY CAPTURE (2.4)
+appstore 682658836 GarageBand (10.1.2)
+appstore 409183694 Keynote (6.6.2)
+appstore 539883307 LINE (4.9.0)
+appstore 409203825 Numbers (3.6.2)
+appstore 558507529 PDF Master (2.1)
+appstore 588109295 PDFNut (1.2.8)
+appstore 409201541 Pages (5.6.2)
+appstore 530661872 SwordAndSworcery (1.0.1)
+appstore 461369673 VOX (2.8.5)
+appstore 497799835 Xcode (8.0)
+appstore 408981434 iMovie (10.1.2)
+appstore 408981381 iPhoto (9.6.1)
