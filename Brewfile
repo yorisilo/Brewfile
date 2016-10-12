@@ -177,7 +177,6 @@ brew pandoc
 brew pango
 brew pcre
 brew pcre2
-brew peco
 brew perl-build
 brew pgcli
 brew phantomjs
