@@ -117,6 +117,7 @@ brew harfbuzz
 brew haskell-stack
 brew heroku
 brew htop-osx
+brew hub
 brew icu4c
 brew ilmbase
 brew imagemagick
@@ -181,6 +182,7 @@ brew perl-build
 brew pgcli
 brew phantomjs
 brew pinentry
+brew pinentry-mac
 brew pixman
 brew pkg-config
 brew plenv
@@ -210,6 +212,7 @@ brew tig
 brew tmux
 brew tree
 brew unixodbc
+brew utf8proc
 brew valgrind
 brew w3m
 brew webp
@@ -261,9 +264,13 @@ cask emacs-mac
 tap rcmdnk/file
 brew brew-file
 
+tap sanemat/font
+brew ricty --vim-powerline --powerline
+
 # App Store applications
 appstore 425264550 Blackmagic Disk Speed Test (3.0)
 appstore 847496013 Deckset (1.6.3)
+appstore 412448059 ForkLift (2.6.6)
 appstore 510934532 FreeMan (1.4.1)
 appstore 668208984 GIPHY CAPTURE (2.4)
 appstore 682658836 GarageBand (10.1.2)
@@ -274,7 +281,7 @@ appstore 558507529 PDF Master (2.1)
 appstore 588109295 PDFNut (1.2.8)
 appstore 409201541 Pages (5.6.2)
 appstore 530661872 SwordAndSworcery (1.0.1)
-appstore 461369673 VOX (2.8.5)
+appstore 461369673 VOX (2.8.7)
 appstore 497799835 Xcode (8.0)
 appstore 408981434 iMovie (10.1.2)
 appstore 408981381 iPhoto (9.6.1)
