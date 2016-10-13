@@ -36,7 +36,6 @@ cask skype
 cask slack
 cask the-unarchiver
 cask virtualbox
-cask vlc
 cask xquartz
 cask xtrafinder
 
@@ -159,7 +158,6 @@ brew mas
 brew mobile-shell
 brew mongodb
 brew mpfr
-brew mplayer
 brew mpv --with-bundle --HEAD
 brew mycli
 brew mysql
