@@ -13,7 +13,6 @@ cask cyberduck
 cask dash
 cask eclipse-ide
 cask firefox
-cask flash
 cask flip4mac
 cask flux
 cask giffun
@@ -158,7 +157,7 @@ brew mas
 brew mobile-shell
 brew mongodb
 brew mpfr
-brew mpv --with-bundle --HEAD
+brew mpv --with-bundle
 brew mycli
 brew mysql
 brew ncftp
@@ -264,6 +263,11 @@ brew brew-file
 tap sanemat/font
 brew ricty --vim-powerline --powerline
 
+# Below applications were installed by Cask,
+# but do not have corresponding casks.
+
+#cask flash (!)
+
 # App Store applications
 appstore 425264550 Blackmagic Disk Speed Test (3.0)
 appstore 847496013 Deckset (1.6.3)
@@ -272,7 +276,7 @@ appstore 510934532 FreeMan (1.4.1)
 appstore 668208984 GIPHY CAPTURE (2.4)
 appstore 682658836 GarageBand (10.1.2)
 appstore 409183694 Keynote (6.6.2)
-appstore 539883307 LINE (4.9.0)
+appstore 539883307 LINE (4.10.0)
 appstore 409203825 Numbers (3.6.2)
 appstore 558507529 PDF Master (2.1)
 appstore 588109295 PDFNut (1.2.8)
