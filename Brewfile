@@ -48,6 +48,7 @@ brew brew-cask-completion
 brew ruby-completion
 
 tap homebrew/core
+brew android-sdk
 brew ant
 brew ape
 brew aspcud
@@ -269,6 +270,7 @@ brew ricty --vim-powerline --powerline
 #cask flash (!)
 
 # App Store applications
+appstore 417375580 BetterSnapTool (1.7)
 appstore 425264550 Blackmagic Disk Speed Test (3.0)
 appstore 847496013 Deckset (1.6.3)
 appstore 412448059 ForkLift (2.6.6)
