@@ -51,6 +51,7 @@ tap homebrew/core
 brew android-sdk
 brew ant
 brew ape
+brew archey
 brew aspcud
 brew aspell
 brew autoconf
@@ -279,13 +280,13 @@ appstore 510934532 FreeMan (1.4.1)
 appstore 668208984 GIPHY CAPTURE (2.4)
 appstore 682658836 GarageBand (10.1.3)
 appstore 409183694 Keynote (6.6.2)
-appstore 539883307 LINE (4.10.0)
+appstore 539883307 LINE (4.10.2)
 appstore 409203825 Numbers (3.6.2)
 appstore 558507529 PDF Master (2.1)
 appstore 588109295 PDFNut (1.2.8)
 appstore 409201541 Pages (5.6.2)
 appstore 530661872 SwordAndSworcery (1.0.1)
 appstore 461369673 VOX (2.8.7)
-appstore 497799835 Xcode (8.0)
+appstore 497799835 Xcode (8.1)
 appstore 408981434 iMovie (10.1.3)
 appstore 408981381 iPhoto (9.6.1)
