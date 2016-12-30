@@ -158,7 +158,7 @@ brew mas
 brew mobile-shell
 brew mongodb
 brew mpfr
-brew mpv --with-bundle
+brew mpv --with-bundle --HEAD
 brew mycli
 brew mysql
 brew ncftp
@@ -171,6 +171,7 @@ brew ocamlbuild
 brew opam
 brew openexr
 brew openssl
+brew p11-kit
 brew pandoc
 brew pango
 brew pcre
