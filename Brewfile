@@ -54,6 +54,7 @@ brew ape
 brew archey
 brew aspcud
 brew aspell
+brew atk
 brew autoconf
 brew automake
 brew bdw-gc
@@ -75,6 +76,7 @@ brew ctags
 brew curl
 brew czmq
 brew dbus
+brew desktop-file-utils
 brew direnv
 brew dirmngr
 brew docbook
@@ -102,6 +104,7 @@ brew git
 brew glib
 brew global
 brew gmp
+brew gnome-icon-theme
 brew gnu-sed
 brew gnupg
 brew gnupg2
@@ -111,15 +114,19 @@ brew gobject-introspection
 brew gpg-agent
 brew graphviz
 brew gringo
+brew gsettings-desktop-schemas
 brew gsl
+brew gtk+3
 brew harfbuzz
 brew haskell-stack
 brew heroku
+brew hicolor-icon-theme
 brew htop-osx
 brew hub
 brew icu4c
 brew ilmbase
 brew imagemagick
+brew intltool
 brew isl
 brew ivy
 brew jbig2dec
@@ -129,11 +136,13 @@ brew libass
 brew libassuan
 brew libav
 brew libcroco
+brew libepoxy
 brew libevent
 brew libffi
 brew libgcrypt
 brew libgpg-error
 brew libksba
+brew libmagic
 brew libmpc
 brew libpng
 brew librsvg
@@ -158,7 +167,7 @@ brew mas
 brew mobile-shell
 brew mongodb
 brew mpfr
-brew mpv --with-bundle --HEAD
+brew mpv --with-bundle
 brew mycli
 brew mysql
 brew ncftp
@@ -170,6 +179,7 @@ brew ocaml
 brew ocamlbuild
 brew opam
 brew openexr
+brew openjpeg
 brew openssl
 brew p11-kit
 brew pandoc
@@ -184,13 +194,13 @@ brew pinentry-mac
 brew pixman
 brew pkg-config
 brew plenv
+brew poppler
 brew postgresql
 brew protobuf
 brew pth
 brew pyenv
 brew python
 brew python3
-brew qt
 brew qt5
 brew rbenv
 brew re2c
@@ -264,7 +274,12 @@ tap rcmdnk/file
 brew brew-file
 
 tap sanemat/font
-brew ricty --vim-powerline --powerline
+brew ricty --powerline --vim-powerline
+
+tap zegervdv/zathura
+brew girara
+brew zathura
+brew zathura-pdf-poppler
 
 # Below applications were installed by Cask,
 # but do not have corresponding casks.
