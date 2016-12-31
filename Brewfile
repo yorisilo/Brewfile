@@ -201,7 +201,6 @@ brew pth
 brew pyenv
 brew python
 brew python3
-brew qt5
 brew rbenv
 brew re2c
 brew readline
