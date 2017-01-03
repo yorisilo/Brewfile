@@ -66,6 +66,7 @@ brew camlp5
 brew clasp
 brew clisp
 brew cloog
+brew cloog@0.15
 brew cmake
 brew cmigemo
 brew coq
@@ -81,6 +82,7 @@ brew direnv
 brew dirmngr
 brew docbook
 brew docutils
+brew doxygen
 brew eigen
 brew elasticsearch@2.4
 brew faac
@@ -91,7 +93,7 @@ brew fontconfig
 brew fontforge
 brew freetype
 brew fribidi
-brew gcc
+brew gcc@4.7
 brew gd
 brew gdb
 brew gdbm
@@ -104,6 +106,7 @@ brew git
 brew glib
 brew global
 brew gmp
+brew gmp@4
 brew gnome-icon-theme
 brew gnu-sed
 brew gnupg
@@ -128,6 +131,7 @@ brew ilmbase
 brew imagemagick
 brew intltool
 brew isl
+brew isl@0.12
 brew ivy
 brew jbig2dec
 brew jpeg
@@ -144,6 +148,7 @@ brew libgpg-error
 brew libksba
 brew libmagic
 brew libmpc
+brew libmpc@0.8
 brew libpng
 brew librsvg
 brew libsigsegv
@@ -167,6 +172,7 @@ brew mas
 brew mobile-shell
 brew mongodb
 brew mpfr
+brew mpfr@2
 brew mpv --with-bundle
 brew mycli
 brew mysql
@@ -196,6 +202,7 @@ brew pkg-config
 brew plenv
 brew poppler
 brew postgresql
+brew ppl@0.11
 brew protobuf
 brew pth
 brew pyenv
@@ -257,12 +264,6 @@ brew r
 tap homebrew/services
 
 tap homebrew/versions
-brew cloog-ppl015
-brew gcc47
-brew gmp4
-brew libmpc08
-brew mpfr2
-brew ppl011
 
 tap homebrew/x11
 
