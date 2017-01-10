@@ -26,6 +26,7 @@ cask java
 cask karabiner
 cask kindle
 cask mactex
+cask marp
 cask osxfuse
 cask picasa
 cask processing
