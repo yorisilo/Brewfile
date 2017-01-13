@@ -32,6 +32,7 @@ cask marp
 cask osxfuse
 cask picasa
 cask processing
+cask readcube
 cask skim
 cask skitch
 cask skype
@@ -274,7 +275,7 @@ tap homebrew/versions
 tap homebrew/x11
 
 tap railwaycat/emacsmacport
-brew emacs-mac
+cask emacs-mac
 
 tap rcmdnk/file
 brew brew-file
