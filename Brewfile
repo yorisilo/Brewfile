@@ -62,6 +62,7 @@ brew atk
 brew autoconf
 brew automake
 brew bdw-gc
+brew bison
 brew boost
 brew bsdmake
 brew cairo
@@ -72,7 +73,7 @@ brew clisp
 brew cloog
 brew cloog@0.15
 brew cmake
-brew cmigemo
+brew cmigemo --HEAD
 brew coq
 brew coreutils
 brew corkscrew
@@ -89,14 +90,18 @@ brew docutils
 brew doxygen
 brew eigen
 brew elasticsearch@2.4
+brew epstool
 brew faac
 brew ffmpeg
+brew fftw
 brew figlet
 brew fish
+brew fltk
 brew fontconfig
 brew fontforge
 brew freetype
 brew fribidi
+brew gawk
 brew gcc
 brew gcc@4.7
 brew gd
@@ -108,6 +113,7 @@ brew gh
 brew ghostscript
 brew ghq
 brew git
+brew gl2ps
 brew glib
 brew global
 brew gmp
@@ -116,10 +122,11 @@ brew gnome-icon-theme
 brew gnu-sed
 brew gnupg
 brew gnupg2
-brew gnuplot --with-cairo --with-x11 --with-tex
+brew gnuplot --with-cairo --with-tex --with-qt5 --with-x11
 brew gnutls
 brew gobject-introspection
 brew gpg-agent
+brew graphicsmagick
 brew graphviz
 brew gringo
 brew gsettings-desktop-schemas
@@ -172,6 +179,7 @@ brew libyaml
 brew little-cms2
 brew llvm
 brew lua
+brew lzip
 brew macvim --with-override-system-vim
 brew markdown
 brew mas
@@ -206,14 +214,19 @@ brew pinentry-mac
 brew pixman
 brew pkg-config
 brew plenv
+brew plotutils
 brew poppler
 brew postgresql
 brew ppl@0.11
 brew protobuf
+brew pstoedit
 brew pth
 brew pyenv
+brew pyqt5
 brew python
 brew python3
+brew qscintilla2
+brew qt5
 brew rbenv
 brew re2c
 brew readline
@@ -224,8 +237,11 @@ brew ripgrep
 brew rlwrap
 brew ruby-build
 brew shared-mime-info
+brew sip --with-python3
 brew sl
 brew sqlite
+brew szip
+brew tbb
 brew terminal-notifier
 brew texinfo
 brew the_silver_searcher
@@ -263,10 +279,19 @@ tap homebrew/python
 brew numpy
 
 tap homebrew/science
+brew arpack
 brew datamash
 brew glpk
+brew hdf5
+brew metis
+brew octave
 brew opencv
+brew qhull
+brew qrupdate
 brew r
+brew suite-sparse
+brew transfig
+brew veclibfort
 
 tap homebrew/services
 
@@ -295,12 +320,13 @@ appstore 847496013 Deckset (1.6.3)
 appstore 412448059 ForkLift (2.6.6)
 appstore 668208984 GIPHY CAPTURE (2.4)
 appstore 682658836 GarageBand (10.1.4)
+appstore 1127487414 Install macOS Sierra (12.0.49)
 appstore 409183694 Keynote (6.6.2)
 appstore 539883307 LINE (4.11.1)
 appstore 558507529 PDF Master (2.2)
 appstore 588109295 PDFNut (1.2.8)
 appstore 530661872 SwordAndSworcery (1.0.1)
-appstore 461369673 VOX (2.8.11)
+appstore 461369673 VOX (2.8.13)
 appstore 497799835 Xcode (8.2.1)
 appstore 408981434 iMovie (10.1.4)
 appstore 408981381 iPhoto (9.6.1)
