@@ -13,7 +13,6 @@ cask coqide
 cask cyberduck
 cask dash
 cask dropbox
-cask eclipse-ide
 cask firefox
 cask flip4mac
 cask flux
@@ -48,8 +47,6 @@ tap hakamadare/goenv
 brew goenv
 
 tap homebrew/completions
-brew brew-cask-completion
-brew ruby-completion
 
 tap homebrew/core
 brew android-sdk
@@ -64,6 +61,7 @@ brew automake
 brew bdw-gc
 brew bison
 brew boost
+brew brew-cask-completion
 brew bsdmake
 brew cairo
 brew camlp4
@@ -194,6 +192,7 @@ brew ncftp
 brew nettle
 brew nkf
 brew nodebrew
+brew numpy
 brew oath-toolkit
 brew ocaml
 brew ocamlbuild
@@ -236,6 +235,7 @@ brew repl
 brew ripgrep
 brew rlwrap
 brew ruby-build
+brew ruby-completion
 brew shared-mime-info
 brew sip --with-python3
 brew sl
@@ -276,7 +276,6 @@ brew composer
 brew php70
 
 tap homebrew/python
-brew numpy
 
 tap homebrew/science
 brew arpack
